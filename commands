@@ -1,3 +1,12 @@
 this file has git command and their description
   at first open command prompt and 
 1- get git version: git --version
+2- install git : opt-get install git in windows
+		 brew install git    in mac
+3- clone git repository: git clone Address
+4- see files status and if there is change to push(red file is untracked files for changes):
+   git status 
+5- add untracked files: git add fileaddress(untracked file path).it convert file status to green in git status
+6- 
+
+
