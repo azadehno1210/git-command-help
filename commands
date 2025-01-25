@@ -7,6 +7,9 @@ this file has git command and their description
 4- see files status and if there is change to push(red file is untracked files for changes):
    git status 
 5- add untracked files: git add fileaddress(untracked file path).it convert file status to green in git status
-6- 
+6- commit file's changes with message: git commit -m 'file added for git command desc'
+7- push to repository: git push 
+note: master branch is default branch and main
+8- get file changes : git diff README.md (shows changes and added line (and removed lined in red)) 
 
 
