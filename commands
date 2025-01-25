@@ -11,5 +11,6 @@ this file has git command and their description
 7- push to repository: git push 
 note: master branch is default branch and main
 8- get file changes : git diff README.md (shows changes and added line (and removed lined in red)) 
-
+9- git log (to see all changes log)
+10- git checkout README.md (remove latest change in readme.md)
 
