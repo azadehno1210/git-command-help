@@ -14,3 +14,30 @@ note: master branch is default branch and main
 9- git log (to see all changes log)
 10- git checkout README.md (remove latest change in readme.md)
 
+
+
+
+گام‌های اصلی:
+
+مرحله ۱ – Git init کن داخل روت پروژه
+
+cd مسیر_پروژه
+git init
+
+مرحله ۲ – فایل‌ها رو اضافه کن و Commit بزن
+
+git add .
+git commit -m "initial commit for VoiceTranslator project"
+
+مرحله ۳ – برو تو سایت github.com (https://github.com/) و یه ریپازیتوری جدید بساز
+ • بدون README
+ • فقط یه اسم بده، مثلاً: VoiceTranslator
+
+مرحله ۴ – پروژه رو به GitHub وصل کن
+
+git remote add origin https://github.com/username/VoiceTranslator.git
+git branch -M main
+git push -u origin main
+
+به‌جای username، یوزرنیم GitHub خودتو بذار.
+
